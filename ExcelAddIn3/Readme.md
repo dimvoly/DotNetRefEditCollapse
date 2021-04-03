@@ -28,11 +28,11 @@ Add to Excel via `Developer > Add-ins > Excel Add-ins > Browse` and select the .
 Open up a workbook that has two values you want to insert the sum function to.
 Go to `DotNetRefEditCollapse > Example > Problem Set Up`.
 
-![Uncollapsed](ReadMe/exampleUse_uncollapsed.png)
+![Uncollapsed](ReadMe/exampleUse_uncollapsed.PNG)
 
 Click the button to the right of "Augend" to collapse the form and then select cell A1.
 
-![Collapsed](ReadMe/exampleUse_collapsed.png)
+![Collapsed](ReadMe/exampleUse_collapsed.PNG)
 
 Click either the uncollapse button, or hit enter to return to the form.
 Repeat for the other two cells, and then click Insert to put the sum function into the Destination cell.
@@ -41,7 +41,7 @@ Repeat for the other two cells, and then click Insert to put the sum function in
 ## How to Install Code and Run From VS
 Either download the code and open as a solution or clone the repo using the Visual Studio GitHub plug-in. Use the following debug options to load the add-in after compilation:
 
-![Debug Options](ReadMe/debugOptions.png)
+![Debug Options](ReadMe/debugOptions.PNG)
 
 You'd likely want to just copy out the relevant parts to your code, this isn't something that you can clone and use as a component - too many things are intertwined to make it work.
 
