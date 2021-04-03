@@ -1,4 +1,4 @@
-2021-04-03
+2021-04-04
 
 
 
@@ -19,30 +19,35 @@ In this repo I've taken [another project](https://github.com/Ron-Ldn/DotNetRefEd
 
 # How to Use
 
-## Example Usage
-[picture of RefEdit before collapsing]
-
-[picture of RefEdit while selecting]
-
 ## How to Install Example
+Take either the "RefEdit_ExcelAddIn3-AddIn-packed.xll" or "RefEdit_ExcelAddIn3-AddIn64-packed.xll" (depending on your 32-bit or 64-bit system respectively) from [https://github.com/dimvoly/DotNetRefEditCollapse](https://github.com/dimvoly/DotNetRefEditCollapse).
 
+Add to Excel via `Developer > Add-ins > Excel Add-ins > Browse` and select the .xll file.
+
+## Example Usage
+Open up a workbook that has two values you want to insert the sum function to.
+Go to `DotNetRefEditCollapse > Example > Problem Set Up`.
+
+![Uncollapsed](ReadMe/exampleUse_uncollapsed.png)
+
+Click the button to the right of "Augend" to collapse the form and then select cell A1.
+
+![Collapsed](ReadMe/exampleUse_collapsed.png)
+
+Click either the uncollapse button, or hit enter to return to the form.
+Repeat for the other two cells, and then click Insert to put the sum function into the Destination cell.
 
 
 ## How to Install Code and Run From VS
+Either download the code and open as a solution or clone the repo using the Visual Studio GitHub plug-in. Use the following debug options to load the add-in after compilation:
 
-Download the code and open as solution (or better yet clone the repo and make your own project).
-
-Debug options to use.
-
+![Debug Options](ReadMe/debugOptions.png)
 
 You'd likely want to just copy out the relevant parts to your code, this isn't something that you can clone and use as a component - too many things are intertwined to make it work.
 
 
-
-
-
 # Limitations
-This isn't a standalone Control and the code isn't well encapsulated at all. Any specific suggestions that would help make this a better example are certianly welcome, please post them as issues with what you propose.
+This isn't a standalone Control and the code isn't well encapsulated at all. Any specific suggestions that would help make this a better example are certainly welcome, please post them as issues with what you propose.
 
 
 # Other Approaches & References
